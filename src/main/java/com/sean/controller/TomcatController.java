@@ -12,6 +12,6 @@ public class TomcatController {
 
 	@GetMapping("/hello")
 	public Collection<String> sayHello() {
-		return IntStream.range(0, 10).mapToObj(i -> "Hello number " + i).collect(Collectors.toList());
+		return IntStream.range(0, 10).mapToObj(i -> "Hello develop number " + i).collect(Collectors.toList());
 	}
 }
